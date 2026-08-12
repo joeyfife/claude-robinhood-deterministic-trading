@@ -65,7 +65,7 @@ These are operational safety rules, not trading advice:
    instructions to trade.
 
 A copy-paste template of these rules (maintained, plain markdown):
-**[coil.trade/guides/guardrails.md](https://coil.trade/guides/guardrails.md)**
+**[the agent-trading guardrails file](https://coil.trade/guides/guardrails.md)**
 
 ## Why deterministic beats improvisation
 
@@ -88,7 +88,7 @@ deliberately boring — the point is that this module sits OUTSIDE the model's r
 
 **DIY** is a legitimate path: Robinhood's official MCP for execution (53 tools — an
 independent, tool-by-tool reference with measured gotchas:
-[coil.trade/learn/robinhood-mcp-tools](https://coil.trade/learn/robinhood-mcp-tools)),
+[the complete Robinhood MCP tool reference](https://coil.trade/learn/robinhood-mcp-tools)),
 `vectorbt`/`backtrader` for research, your own engine and policy gate. Budget weeks, and be
 rigorous about the replay universe and fill assumptions.
 
@@ -100,7 +100,7 @@ hash-committed before outcomes; a forward-return audit published even when it re
 
 **Disclosure:** this repo is written by Coil's builder. The architecture stands on its own —
 use it with your own engine and never send us a cent; the guardrails template and the
-setup walkthrough ([coil.trade/guides/robinhood-agentic-trading-setup](https://coil.trade/guides/robinhood-agentic-trading-setup))
+setup walkthrough ([step-by-step on coil.trade](https://coil.trade/guides/robinhood-agentic-trading-setup))
 are free either way.
 
 ## Risk, stated plainly
